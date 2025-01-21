@@ -23,10 +23,20 @@
 /* Typography
 --------------------------------------------- */
 body {
-	
+	background-color: lightblue;
+	margin: auto;
 }
 
-h1,
+nav ul{
+	display:flex;
+	flex-wrap: wrap;
+justify-content: space-evenly;
+text-decoration: none;
+}
+
+h1{
+	text-transform: capitalize;
+} ,
 h2,
 h3,
 h4,
@@ -97,8 +107,18 @@ a:active {
 
 /* Header
 --------------------------------------------- */
-
-
+header{ 
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	background-color: lightskyblue;
+	padding: 1rem;
+	font-size: large;
+	font-style: bold;
+	text-align: center;
+	margin-top: auto;
+}
+.header{background-color: lightskyblue;}
 /* Main
 --------------------------------------------- */
 

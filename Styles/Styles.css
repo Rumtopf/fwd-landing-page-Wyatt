@@ -35,9 +35,12 @@ text-decoration: none;
 }
 
 h1{
-	text-transform: capitalize;
-} ,
-h2,
+	text-size-adjust: 1.5rem;
+	justify-content: center;
+	text-justify:auto;
+}
+
+/*h2,
 h3,
 h4,
 h5,
@@ -51,7 +54,7 @@ p {
 
 
 /* Elements
---------------------------------------------- */
+--------------------------------------------- 
 ul {
 	
 }
@@ -75,23 +78,24 @@ table {
 /* Links
 --------------------------------------------- */
 a {
-	
+border: 1rem;	
 }
 
 a:visited {
+	color: blue;
 	
 }
 
 a:hover {
-	
+	color: blueviolet;
 }
 
 a:focus {
-	
+	color: blueviolet;
 }
 
 a:active {
-	
+	color: green;
 }
 
 
@@ -114,11 +118,11 @@ header{
 	background-color: lightskyblue;
 	padding: 1rem;
 	font-size: large;
-	font-style: bold;
+	font-weight: bold;
 	text-align: center;
 	margin-top: auto;
 }
-.header{background-color: lightskyblue;}
+
 /* Main
 --------------------------------------------- */
 

@@ -28,37 +28,69 @@ body {
 }
 
 nav ul{
-	display:flex;
-	flex-wrap: wrap;
-justify-content: space-evenly;
-text-decoration: none;
+	list-style-type: none;
+	display: flex;
+	padding: 1rem;
 }
+@media (min-width: 50em) {
 
+nav {
+		display: none;
+	}
+	.navigation-menu {
+		flex: 1 1 auto;
+		padding:0 1rem;
+		justify-content: center;
+		color: lightskyblue;
+	}}
+nav li{
+	padding: 1rem;
+	justify-content: center;
+}
 h1{
+	padding: 2rem;
 	text-size-adjust: 1.5rem;
 	justify-content: center;
 	text-justify:auto;
 }
 
-/*h2,
-h3,
+h2{
+	font-family: Arial, Helvetica, sans-serif;
+	text-size-adjust: 1.5rem;
+	justify-content: center;
+	text-justify:auto;
+};
+/*h3,
 h4,
 h5,
 h6 {
 	
 }
-
+*/
 p {
-	
+font-family: Georgia, 'Times New Roman', Times, serif;
+line-height: 1.6rem;
+font-size: 1.5em;
 }
 
 
 /* Elements
---------------------------------------------- 
-ul {
-	
+--------------------------------------------- */
+.projects{ 
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+	margin: 0;
+	padding: 0;
 }
-
+.projects li {
+	list-style-type: none;
+	justify-content: space-evenly;
+	margin: 0;
+	padding: 1rem;
+	justify-content: center;
+}
+/*
 ol {
 	
 }
@@ -76,7 +108,9 @@ table {
 }
 
 /* Links
+
 --------------------------------------------- */
+
 a {
 border: 1rem;	
 }
@@ -119,13 +153,37 @@ header{
 	padding: 1rem;
 	font-size: large;
 	font-weight: bold;
-	text-align: center;
 	margin-top: auto;
 }
 
 /* Main
 --------------------------------------------- */
+.iris{
+	height:max-content;
+	max-width: 100%;
+	image-resolution: 512px 512px;
+	padding: 1rem;
+}
 
+section{
+	margin: 0;
+	padding: 0 ;
+justify-content: left ;
+}
+p{
+	line-height: 1.5rem;
+	
+}
 
+.aboutme{
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
 /* Footer
 --------------------------------------------- */
+
+div.construction {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}

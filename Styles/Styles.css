@@ -51,7 +51,7 @@ nav ul {
 .navigation-menu {
 	background-color: lightskyblue;
 	position: sticky;
-	
+	list-style-type: none;
 	top: 0;
 	right: 0;
 	left: 0;

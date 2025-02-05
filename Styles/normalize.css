@@ -146,6 +146,7 @@
    */
   
   img {
+    size-adjust: auto;
     border-style: none;
   }
   

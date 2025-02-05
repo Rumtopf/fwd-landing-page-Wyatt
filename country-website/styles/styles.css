@@ -1,0 +1,44 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Generic (CALLED IN ANOTHER FILE)
+	- Normalize
+	- Box sizing
+	- Media width
+# Base
+	- Typography
+	- Elements
+	- Links
+# Layouts
+# Components
+	- Header
+	- Main
+      -Home
+      -Lanscape
+      -Gallery
+      -Creators
+
+	- Footer
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+
+/* Typography
+--------------------------------------------- */
+/* .montserrat-<uniquifier> {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+  } */
+
+  body {
+    font-family:m;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: rgb(74, 74, 74);
+    background-color: rgb(255, 255, 255);
+}

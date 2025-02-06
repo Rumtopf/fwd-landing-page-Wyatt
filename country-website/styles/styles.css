@@ -24,14 +24,28 @@
 --------------------------------------------- */
   header {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
+}
 
+.header1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: small;
 }
 
 #burger-button {
+  display: block;
     font-size: 1.25rem;
     width: 20%;
+    position: fixed;
+    top: auto;
+    right: 0;
+    left: 0;
 }
 
 #main-nav-list {

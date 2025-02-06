@@ -12,12 +12,7 @@
 # Layouts
 # Components
 	- Header
-	- Main
-      -Home
-      -Lanscape
-      -Gallery
-      -Creators
-
+	- Main 
 	- Footer
 --------------------------------------------------------------*/
 
@@ -27,14 +22,6 @@
 
 /* Typography
 --------------------------------------------- */
-
-
-
-  #burger-button {
-    font-size: 1.25rem;
-    width: 100%;
-    background-color: hsl(236, 100%, 50%);
-  }
   header {
     display: flex;
     justify-content: space-between;
@@ -44,8 +31,7 @@
 
 #burger-button {
     font-size: 1.25rem;
-    width: 100%;
-    background-color: hsl(236, 100%, 50%);;
+    width: 20%;
 }
 
 #main-nav-list {
@@ -87,9 +73,6 @@
     }
 }
 
-
-
-}
   @media (min-width: 50em) {
 
     .navigation-menu {

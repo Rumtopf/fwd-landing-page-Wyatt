@@ -22,50 +22,55 @@
 
 /* Typography
 --------------------------------------------- */
-  header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.header1 {
+header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: small;
 }
-
+.header1 {
+  display: block;
+  position: relative;
+  padding-bottom: 1rem;
+  top: 100%;
+  right: 0;
+  left: 0;
+}
+.countrygarden{ 
+text-align: center;
+}
+.favicon{
+  display: none;
+align-items: center;
+size-adjust: 2rem;
+}
 #burger-button {
   display: block;
+  background-color: grey;
     font-size: 1.25rem;
     width: 10%;
     position: fixed;
     top: auto;
     right: 0;
     left: 0;
-}
-/* #main-nav-list li a {
-    display: block;
-    padding: .5rem;
-    text-decoration: none;
-    } */
-#main-nav-list{
+
+    }
+
+#main-nav-list {
   display: none;
+  list-style:none;
+
 }
 
 #main-nav-list.toggled {
-    
-    display: block;
-
-
+  display: block;
 }
 
-.homeimg{
+.homeimg {
+  padding-top: 1rem;
   image-resolution: 100%;
 }
+
 @media (min-width: 50em) {
   .header1 {
     display: block;
@@ -74,55 +79,64 @@
     right: 0;
     left: 0;
   }
-    #burger-button {
-        display: none;
-    }
 
-    #main-nav-list {
-      display: flex;
-      flex: 1 1 auto;
-      padding: 0rem 1rem 0 0;
-    justify-content: center;
-      color: rgb(0, 0, 0);
-    }
+  #burger-button {
+    display: none;
+  }
+
+  #main-nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    padding: 0rem 1rem 0 0;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+  }
 }
 
-  @media (min-width: 50em) {
+@media (min-width: 50em) {
 
-    .navigation-menu {
-      flex: 1 1 auto;
-      padding: 0rem 1rem 0 0;
+  .navigation-menu {
+    flex: 1 1 auto;
+    padding: 0rem 1rem 0 0;
     justify-content: center;
-      color: rgb(0, 0, 0);
-  }}
-  .homeimg{
-    image-resolution: auto;
+    color: rgb(0, 0, 0);
   }
-  a {
-    border: 1rem;
+  .bodyheading {
+    align-content: center;
   }
-  
-  a:visited {
-    color: blue;
-  
-  }
-  
-  a:hover {
-    color: rgb(62, 0, 128);
-  }
-  
-  a:focus {
-    color: rgb(62, 0, 128);
-  }
-  
-  a:active {
-    color: rgb(62, 0, 128);
-  }
-  body {
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 1.125rem;
-    font-weight: 400;
-    line-height: 1.6;
-    color: rgb(74, 74, 74);
-    background-color: rgb(255, 255, 255);
+}
+
+.homeimg {
+  image-resolution: auto;
+}
+
+a {
+  border: 1rem;
+}
+
+a:visited {
+  color: blue;
+
+}
+
+a:hover {
+  color: rgb(62, 0, 128);
+}
+
+a:focus {
+  color: rgb(62, 0, 128);
+}
+
+a:active {
+  color: rgb(62, 0, 128);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: rgb(74, 74, 74);
+  background-color: rgb(255, 255, 255);
 }

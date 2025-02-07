@@ -29,36 +29,47 @@ header {
   align-items: center;
 }
 .header1 {
+  font-weight: bold;
+  font-size: large;
   display: block;
   position: relative;
+  padding-top: 2rem;
   padding-bottom: 1rem;
   top: 100%;
   right: 0;
   left: 0;
+  margin: 0;
 }
 .countrygarden{ 
 text-align: center;
 }
 .favicon{
   display: none;
-align-items: center;
-size-adjust: 2rem;
+  flex-wrap: wrap;
+  image-resolution:  0px;
+top: 0;
+left: 0;
 }
 #burger-button {
   display: block;
   background-color: grey;
     font-size: 1.25rem;
-    width: 10%;
+    width: 15%;
     position: fixed;
-    top: auto;
-    right: 0;
-    left: 0;
-
+    top: 0;
+    right:0;
+    left: center;
+    
+    
     }
-
+.burger-button{
+  display: block;
+  padding: left 12rem;
+}
 #main-nav-list {
   display: none;
   list-style:none;
+  font-size: larger;
 
 }
 
@@ -67,12 +78,92 @@ size-adjust: 2rem;
 }
 
 .homeimg {
-  padding-top: 1rem;
+  padding-bottom: 1rem;
   image-resolution: 100%;
 }
+.ccgarden{
+  display: flex;
+  font-size: larger;
+  align-items: center;
+  padding-top: 2rem;
+  padding-left: 1rem;
+}
+.countrygarden{
+  display: flex;
+  text-align:justify;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  line-height: 1.75rem;
+  margin-bottom: auto;
+}
+.landscape{
+  display: flex;
+  text-align: center;
+  padding-top: 2rem;
+  padding-left: 1rem;
+}
+.landp{ 
+  display: flex;
+  text-align: justify;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  line-height: 1.75rem;
+}
+.pond{
+  display: flex;
+  text-align: center;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+.pondimg{
+  display: block;
+ 
+}
+.pondp{
+  display: flex;
+  text-align:justify;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  line-height: 1.75rem;
+  margin-bottom: auto;
+}
+.rockery{
+  display: flex;
+  text-align: center;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+.rockeryp{
+  display: flex;
+  text-align:justify;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  line-height: 1.75rem;
+  margin-bottom: auto;
+}
+.landscapefoot{
+  display: flex;
+  padding-top: 3rem;
+}
+
+table, th, td {
+  border: 1px solid;
+}
+td {
+  height: 100px;
+vertical-align:middle;
+}
+
 
 @media (min-width: 50em) {
   .header1 {
+    font-weight: bold;
     display: block;
     position: relative;
     top: 100%;

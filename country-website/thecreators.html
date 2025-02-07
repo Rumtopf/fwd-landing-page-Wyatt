@@ -1,9 +1,10 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="wyatt's country garden website">
+    <meta name="description" content="wyatt's country garden website gallery">
     <title>Wyatt's Country Website</title>
     <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
@@ -12,83 +13,113 @@
     <meta name="apple-mobile-web-app-title" content="MyWebSite" />
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Oswald:wght@200..700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/styles.css">
 </head>
-<header class="header">
+<header>
+    <header class="header">
 
-    <section>
-        <img class="favicon" src="favicon-96x96.png" alt="Rumtopf">
-        <p class="header1">Creators of a Country Garden</p>
+        <section>
+            <img class="favicon" src="favicon-96x96.png" alt="Rumtopf">
+            <p class="header1">The Creators</p>
 
-        <nav class="Burger">
-            <button id="burger-button"><img src="hamburger-menu-svgrepo-com.svg" alt=""></a></button>
+            <nav class="Burger">
+                <button id="burger-button"><img src="hamburger-menu-svgrepo-com.svg" alt=""></a></button>
 
-            <ul id="main-nav-list">
+                <ul id="main-nav-list">
 
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Landscaping.html">Landscaping</a></li>
-                <li><a href="thecgallery.html">Gallery</a></li>
-                <li><a href="thecreators.html">Creators</a></li>
-                <li><a href="../index.html">Landing Page</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Landscaping.html">Landscaping</a></li>
+                    <li><a href="thecgallery.html">Gallery</a></li>
+                    <li><a href="thecreators.html">Creators</a></li>
+                    <li><a href="../index.html">Landing Page</a></li>
 
-            </ul>
-        </nav>
-    </section>
-</header>
+                </ul>
+            </nav>
+        </section>
+    </header>
 
-<body>
-    <form action="#" method="post" name="careers">
+    <body>
+        <video width="320" controls>
+            <source src="Videos/10755265-hd_3840_2160_30fps.mp4" type="video/mp4">
+        </video>
+        <form class="formmain" action="#" method="post" name="careers">
 
-        <h2>apply now</h2>
-        <fieldset>
-            <legend><span class="name-eaddress"></span>
-                newsletter
-            </legend>
-            <div class="form-row1">
-                <label for="name">Name: </label>
-                <input type="text" name="user-name" id="name">
-                <div>
+            <h1 class="headapply">Apply Now</h1>
+            <p>Join my newsletter to keep yourself updated on everything Rumtopf</p>
+            <fieldset class="field1">
+                <legend><span class="name-eaddress"></span>
+                    newsletter
+                </legend>
+                <section class="form1">
+                    <label class="name">Name: </label>
+                    <input type="text" name="user-name" id="name" placeholder="Your Name">
+                </section>
+                <section>
                     <label for="email">Email:</label>
-                    <input type="email" name="email" id="email" placeholder="info@email.com">
+                    <input type="email" name="email" id="email" placeholder="youremail@email.com">
+                    <input type="submit" value="Submit">
+                </section>
+            </fieldset>
+            <fieldset class="field2">
+                <legend><span class="Rate"></span>
+                    Rate my site!
+                </legend>
+                <h3>How did I do?</h3>
+                <div class="form2">
+                    <input type="radio" name="Score" id="excellent" value="score 5">
+                    <label for="score" class="Excellent">Excellent!</label>
                 </div>
+                <div class="form-row">
+                    <input type="radio" name="Score" id="looking-good" value="score 4">
+                    <label for="score" class="Excellent">Looking Good!</label>
+                </div>
+                <div class="form-row">
+                    <input type="radio" name="Score" id="not-too-shabby" value="score 3">
+                    <label for="score" class="Excellent">Not Too Shabby</label>
+                </div>
+                <div class="form-row">
+                    <input type="radio" name="Score" id="it-alright" value="score 2">
+                    <label for="score" class="Excellent">It's Alright</label>
+                </div>
+                <div class="form-row">
+                    <input type="radio" name="Score" id="Needs Improvment" value="score 1">
+                    <label for="score" class="Excellent">Needs Improvment :(</label>
+                </div>
+                <input type="submit" value="Submit">
+        </form>
         </fieldset>
-        <fieldset>
-            <legend><span class="Rate"></span>
-                Rate my site!
-            </legend>
-            <h3>How did I do?</h3>
-            <div class="form-row">
-                <input type="radio" name="Score" id="excellent" value="score">
-                <label for="score" class="Excellent">Excellent!</label>
-            </div>
-            <div class="form-row">
-                <input type="radio" name="Score" id="looking-good" value="score">
-                <label for="score" class="Excellent">Looking good!</label>
-            </div>
-            <div class="form-row">
-                <input type="radio" name="Score" id="not-too-shabby" value="score">
-                <label for="score" class="Excellent">Not Too Shabby</label>
-            </div>
-            <div class="form-row">
-                <input type="radio" name="Score" id="it-alright" value="score">
-                <label for="score" class="Excellent">It's Alright</label>
-            </div>
-            <div class="form-row">
-                <input type="radio" name="Score" id="Needs Improvment" value="score">
-                <label for="score" class="Excellent">Needs Improvment :(</label>
-            </div>
-            <input type="submit" value="Submit">
-    </form>
-    </main>
-    <script src="scripts/script.js"></script>
-</body>
-<footer>
+        </main>
+        <script src="scripts/script.js"></script>
 
-</footer>
+        <h1 class="site">Site Creators</h1>
+
+        <table>
+            <table>
+                <tr>
+                    <th>Photography</th>
+                    <th>Video</th>
+                    <th>Other</th>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://rumtopf.ca">Wyatt Spratt</a>
+                    </td>
+                    <td>
+                        <cite> <a href="https://www.pexels.com/video/pull-out-shot-of-the-earth-10755265/">Nino
+                                Souza</a></cite>
+                    </td>
+                    <td>
+                        Others
+                    </td>
+                </tr>
+            </table>
+    </body>
+    <footer class="createrfoot">
+        <blockquote><cite>Photography throughout the country website are courtesy of Wyatt Spratt.</cite></blockquote>
+        <blockquote><cite>Video by Nino Souza: https://www.pexels.com/video/pull-out-shot-of-the-earth-10755265/</cite>
+        </blockquote>
+        <section>
+            <p class="contacts"> contact:<a class="emails" href="mailto:wspratt@my.bcit.ca"> wspratt@my.bcit.ca</a></p>
+        </section>
+    </footer>
 
 </html>

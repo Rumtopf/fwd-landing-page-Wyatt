@@ -28,6 +28,7 @@ header {
   justify-content: center;
   align-items: center;
 }
+
 .header1 {
   font-weight: bold;
   font-size: large;
@@ -40,35 +41,40 @@ header {
   left: 0;
   margin: 0;
 }
-.countrygarden{ 
-text-align: center;
+
+.countrygarden {
+  text-align: center;
 }
-.favicon{
+
+.favicon {
   display: none;
   flex-wrap: wrap;
-  image-resolution:  0px;
-top: 0;
-left: 0;
+  image-resolution: 0px;
+  top: 0;
+  left: 0;
 }
+
 #burger-button {
   display: block;
   background-color: grey;
-    font-size: 1.25rem;
-    width: 15%;
-    position: fixed;
-    top: 0;
-    right:0;
-    left: center;
-    
-    
-    }
-.burger-button{
+  font-size: 1.25rem;
+  width: 15%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: center;
+
+
+}
+
+.burger-button {
   display: block;
   padding: left 12rem;
 }
+
 #main-nav-list {
   display: none;
-  list-style:none;
+  list-style: none;
   font-size: larger;
 
 }
@@ -81,16 +87,18 @@ left: 0;
   padding-bottom: 1rem;
   image-resolution: 100%;
 }
-.ccgarden{
+
+.ccgarden {
   display: flex;
   font-size: larger;
   align-items: center;
   padding-top: 2rem;
   padding-left: 1rem;
 }
-.countrygarden{
+
+.countrygarden {
   display: flex;
-  text-align:justify;
+  text-align: justify;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 1rem;
@@ -98,32 +106,37 @@ left: 0;
   line-height: 1.75rem;
   margin-bottom: auto;
 }
-.landscape{
+
+.landscape {
   display: flex;
   text-align: center;
   padding-top: 2rem;
   padding-left: 1rem;
 }
-.landp{ 
+
+.landp {
   display: flex;
   text-align: justify;
   padding-left: 1rem;
   padding-right: 1rem;
   line-height: 1.75rem;
 }
-.pond{
+
+.pond {
   display: flex;
   text-align: center;
   padding-top: 1rem;
   padding-left: 1rem;
 }
-.pondimg{
+
+.pondimg {
   display: block;
- 
+
 }
-.pondp{
+
+.pondp {
   display: flex;
-  text-align:justify;
+  text-align: justify;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 1rem;
@@ -131,15 +144,17 @@ left: 0;
   line-height: 1.75rem;
   margin-bottom: auto;
 }
-.rockery{
+
+.rockery {
   display: flex;
   text-align: center;
   padding-top: 1rem;
   padding-left: 1rem;
 }
-.rockeryp{
+
+.rockeryp {
   display: flex;
-  text-align:justify;
+  text-align: justify;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 1rem;
@@ -147,19 +162,51 @@ left: 0;
   line-height: 1.75rem;
   margin-bottom: auto;
 }
-.landscapefoot{
+
+.landscapefoot {
   display: flex;
   padding-top: 3rem;
+  left: 0;
 }
 
-table, th, td {
-  border: 1px solid;
-}
+table,
+th,
 td {
-  height: 100px;
-vertical-align:middle;
+  border: 1px solid;
+  align-tracks: center;
 }
 
+td {
+
+  vertical-align: middle;
+}
+
+.headapply {
+  font-size: large;
+}
+
+.emails {
+  display: flex;
+  flex-wrap: wrap;
+  left: 0;
+  right: 0;
+
+  left: auto;
+}
+
+.formmain {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.field1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.createrfoot{
+  padding-top: 3rem;
+  margin: 0;
+}
 
 @media (min-width: 50em) {
   .header1 {
@@ -193,6 +240,7 @@ vertical-align:middle;
     justify-content: center;
     color: rgb(0, 0, 0);
   }
+
   .bodyheading {
     align-content: center;
   }

@@ -169,6 +169,22 @@ header {
   left: 0;
 }
 
+.garden{
+  display: flex;
+  text-align: center;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+.gardenp{
+  display: flex;
+  text-align: justify;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  line-height: 1.75rem;
+  margin-bottom: auto;
+}
 table,
 th,
 td {
@@ -226,10 +242,13 @@ td {
     display: flex;
     flex-wrap: wrap;
     flex: 1 1 auto;
-    padding: 0rem 1rem 0 0;
+    padding: 0rem 1rem 0 1;
     justify-content: space-between;
     color: rgb(0, 0, 0);
   }
+  #main-nav-list li{
+    padding: 1rem;
+    background-color: chartreuse;
 }
 
 @media (min-width: 50em) {

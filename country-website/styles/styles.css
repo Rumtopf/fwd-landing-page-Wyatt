@@ -192,6 +192,7 @@ th,
 td {
   border: 1px solid;
   align-tracks: center;
+
 }
 
 td {
@@ -300,9 +301,6 @@ td {
     display: grid;
     grid-template-columns: repeat(2, 500px);
     grid-template-rows: auto;
-  
-    
-   
   }
 
   .grid2x3 {
@@ -313,11 +311,13 @@ td {
     grid-column: 2/2;
     grid-row: 1;
   }
-
+.grid{
+  justify-content: center;
+}
   .lower-rockery {
-    grid-column: 1;
+    grid-column:2;
     grid-row: 2/2;
-    padding-left: 10rem;
+    
   }
 
   .gardenp {
@@ -333,9 +333,86 @@ td {
   .pondp{
     padding-top: 6.5rem;
   }
+  .landp{
+    padding-left: 25rem;
+    padding-right: 25rem;
+  }
+  .landscape{ 
+    padding-left: 25rem;
+  padding-right: 25rem;
+  padding-top: 6rem;
+  }
+  .landscapefoot{
+    justify-content: center;
+  }
+.ccgarden{
+  justify-content: center;
+  padding-top: 6rem;
+}
+.homeimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.countrygarden{
+  justify-content: center;
+  padding-left: 25rem;
+  padding-right: 25rem;
+}
+.video1{
+  display: flex;
+  justify-content: center;
+  padding-top: 8rem;
+  width: 100%;
+  height: 800px;
 }
 
+.headapply{
+  display: block;
+  justify-content: center;
+}
 
+form{
+  margin-left: 25%;
+  margin-right:25%;
+  width: 50%;
+}
+.site {
+  font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.site{
+  display: flex;
+  justify-content: center;
+}
+
+table{
+  display: flex;
+  justify-content:space-around;
+  border: 0;
+}
+table td{
+padding: 1rem;
+}
+
+.contacts{
+ justify-content: center;   
+}
+
+.createrfoot{
+ display: flex;
+ justify-content: center; 
+padding-left: 30rem;
+padding-right: 30rem;
+}
+}
+
+.contacts{
+  justify-content: center;   
+ }
 .homeimg {
   image-resolution: auto;
 }
